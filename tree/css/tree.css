@@ -1,0 +1,95 @@
+/* CSS Document */
+/*
+* Style Sheet
+* Version: 1.0
+* Updated: 2015/3/18
+* Author: Lorenzo hee
+* Contact:
+* QQ:571215422
+* Email:yongqinghee@163.com
+*/
+
+@charset "utf-8";
+
+.content {
+    margin: 15px 0px 10px 11px;
+    background-color: #DDDDDD;
+    height: 600px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 8px #D1D1D1;
+    border-radius: 2px;
+    behavior: url(ie-css3.htc);
+}
+
+.displayed {
+    display: none;
+}
+
+.treeMain ul {
+    margin: 0px;
+    padding: 0px;
+    width: 234px;
+    list-style-type: none;
+}
+
+.treeMain ul li {
+    font-family: "SimSun", Georgia,Serif;
+    cursor: pointer;
+}
+
+.treeMain ul.firstLevel li {
+    line-height: 43px;
+    text-align: center;
+    background-color: #00558B;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.treeMain ul.secondLevel li {
+    line-height: 35px;
+    text-align: left;
+    background: url(../img/arrow-left.png) no-repeat 210px;
+    background-color: #047AC4;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.treeMain ul.secondLevel li.selected {
+    color: #000000;
+    background: url(../img/arrow-down.png) no-repeat 210px;
+    background-color: #B6EDFF;
+}
+
+.treeMain ul.thirdLevel li {
+    padding-left: 40px;
+    line-height: 30px;
+    text-align: left;
+    background: url(../img/expand.png) no-repeat 10px;
+    background-color: #03649E;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.treeMain ul.thirdLevel li.selected {
+    background: url(../img/collapse.png) no-repeat 10px;
+    background-color: #03649E;
+}
+.treeMain ul.fouthLevel li {
+    padding-left: 60px;
+    line-height: 30px;
+    text-align: left;
+    background: url("") no-repeat 10px;
+    background-color: #03649E;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.treeMain ul.fouthLevel li.selected {
+    line-height: 30px;
+    text-align: left;
+    background: url("") no-repeat 10px;
+    background-color: #03649E;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF9900;
+}
+
+

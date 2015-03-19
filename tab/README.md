@@ -1,0 +1,1 @@
+this is a tab label with jquery 1.9+

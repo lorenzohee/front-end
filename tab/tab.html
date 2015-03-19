@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<meta http-equiv="X-UA-Compatible" content="IE=8"> <!-- IE8 mode -->
+<meta charset="UTF-8">
+<TITLE>tab label</TITLE>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<link type="text/css" href="css/tab.css" rel="stylesheet">
+<script src="js/tab.js" language="javascript" charset="utf-8"></script>
+</HEAD>
+<BODY>
+<div class="main">
+    <div class="content">
+        <div class="mrkbTitle">
+            <img src="img/folder.png" class="folderImg">
+                <span class="h2Title">
+                    这是标题
+                </span>
+                <span class="mrkbQueryCritera">
+                </span>
+        </div>
+        <div class="mrkbContent">
+            <div class="tabMenu">
+                <ul>
+                    <li class="firstLi">&nbsp;</li>
+                    <li id="title1" class="normal selected" onclick="tagClick('title1')">标题1</li>
+                    <li id="title2" class="normal" onclick="tagClick('title2')">标题2</li>
+                    <li id="title3" class="normal" onclick="tagClick('title3')">标题3</li>
+                    <li id="title4" class="normal" onclick="tagClick('title4')">标题4</li>
+                    <li id="title5" class="normal" onclick="tagClick('title5')">标题5</li>
+                </ul>
+            </div>
+            <div style="line-height: 26px">&nbsp;</div>
+            <div class="tabContent">
+                <div id="container" style="height: 100%;vertical-align:top;" onmousedown="">数据加载中，请稍候...</div>
+            </div>
+        </div>
+    </div>
+</div>
+</BODY>
+</HTML>
